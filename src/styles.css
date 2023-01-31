@@ -1,0 +1,67 @@
+h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 12px;
+}
+
+.container {
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 128px auto;
+  padding: 20px;
+  width: 800px;
+}
+
+.temperature,
+.city {
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.current-weather {
+  text-align: center;
+}
+
+.current-weather i {
+  font-size: 138px;
+  margin-right: 10px;
+}
+
+.current-weather strong {
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.current-weather .units {
+  position: relative;
+  font-size: 20px;
+  top: -57px;
+}
+
+.weekly-weather {
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.mini-icon {
+  font-size: 35px;
+  margin: 6px;
+}
