@@ -39,6 +39,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "745a387cbd32a2ed51308fac14399b48";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Leiria&appid=${apiKey}&units=metric`;
+let city = "Leiria";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
