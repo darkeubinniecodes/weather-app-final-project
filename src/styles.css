@@ -38,13 +38,15 @@ h3 {
   text-align: center;
 }
 
-.current-weather i {
-  font-size: 138px;
+.current-weather img {
+  height: 138px;
+  width: 138px;
   margin-right: 10px;
 }
 
 .current-weather strong {
-  font-size: 100px;
+  color: rgb(33, 33, 33);
+  font-size: 125px;
   line-height: 1;
   font-weight: 500;
 }
@@ -52,7 +54,7 @@ h3 {
 .current-weather .units {
   position: relative;
   font-size: 20px;
-  top: -57px;
+  top: -72px;
 }
 
 .weekly-weather {
