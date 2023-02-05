@@ -46,7 +46,7 @@ h3 {
 
 .current-weather strong {
   color: rgb(33, 33, 33);
-  font-size: 125px;
+  font-size: 115px;
   line-height: 1;
   font-weight: 500;
 }
@@ -55,6 +55,16 @@ h3 {
   position: relative;
   font-size: 20px;
   top: -72px;
+}
+
+.current-weather .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.current-weather .active:hover {
+  text-decoration: none;
 }
 
 .weekly-weather {
