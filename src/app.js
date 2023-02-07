@@ -22,6 +22,32 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = "";
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon", "Tue"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="col-2">
+    <h3>
+      ${day}
+      <br />
+      <img src="http://openweathermap.org//img/wn/50d@2x.png" alt="" class="mini-icon" width="55" />
+      <br />
+      <p>
+        <strong>17º</strong>
+        | 8º
+      </p>
+    </h3>
+  </div>`;
+  });
+
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let humidityElement = document.querySelector("#humidity");
@@ -87,3 +113,5 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Leiria");
+
+displayForecast();
