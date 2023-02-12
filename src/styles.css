@@ -1,5 +1,5 @@
 h1 {
-  font-size: 100px;
+  font-size: 115px;
   margin-bottom: 0;
 }
 
@@ -54,7 +54,7 @@ h3 {
 .current-weather .units {
   position: relative;
   font-size: 20px;
-  top: -72px;
+  top: -66px;
 }
 
 .current-weather .active {
